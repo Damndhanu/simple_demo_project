@@ -7,7 +7,7 @@ import pages.*;
 public class AddToWishlistTest extends BaseTest {
 
     @Test
-    public void addProductToWishlist() {
+    public void addProductToWishlistdemo() {
 
         // Login
         HomePage home = new HomePage(driver);
