@@ -7,9 +7,9 @@ import pages.LoginPage;
 public class LogoutTest extends BaseTest {
 
     @Test
-    public void testLogout() {
+    public void testLogoutDemo() {
         HomePage home = new HomePage(driver);
-        home.clickLogin();
+        home.clickLogin();  
 
         LoginPage login = new LoginPage(driver);
         login.login("yourEmail@gmail.com", "yourPassword");

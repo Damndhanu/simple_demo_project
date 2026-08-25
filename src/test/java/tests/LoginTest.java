@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseTest {
 
     @Test
-    public void testLogin() {
+    public void testLogindemo() {
         HomePage home = new HomePage(driver);
         home.clickLogin();
 
